@@ -2,9 +2,10 @@
 
 ## Docker notes
 
+### Instalasi
+
 Download file : 
 [Windows Installer](https://github.com/boot2docker/windows-installer/releases/latest "boot2docker")
-[Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
 
 Install instruction : [view](https://docs.docker.com/installation/windows/)
 
@@ -14,7 +15,7 @@ Menjalankan docker daemon `Boot2Docker Start`
 
 Perintah-perintah docker :
 
-```
+```bash
 boot2docker stop
 boot2docker download
 boot2docker start
@@ -26,6 +27,8 @@ boot2docker ip
 ```
 
 ### Putty 
+Download file : [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
+
 - Open puttygen.exe and load ("File"->"Load" menu) the private key from `%HOMEPATH%\.ssh\id_boot2docker`
 - then click: "Save Private Key".
 - Then use the saved file to login with PuTTY using `docker@127.0.0.1:2022`
